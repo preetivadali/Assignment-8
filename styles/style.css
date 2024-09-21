@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.image-container {
+    position: relative;
+    width:80%;
+    max-width: 500px;
+}
+
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 55px;
+    transition: transform 0.5s ease, border-radius 0.5s ease; 
+}
