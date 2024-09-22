@@ -34,8 +34,6 @@ body {
     
    
 }
-
-
 .image-container h4 {
     top: 10%;
     font-size: 24px;
@@ -47,11 +45,51 @@ body {
     font-size: 40px;
 }
 
+
 .image-container h2 {
     top: 30%;
     font-size: 40px;
 }
+.image-container .cake {
+width: 70px; 
+height: 70px; 
+position: absolute; 
+top: 50%;
+left: 50%; 
 
+animation-name: myCake;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes myCake {
+    0% {
+    transform: scale(1);
+    border: 5px solid black;
     
+    
+    }
+    100% {
+    transform: scale(2); 
+    border: 5px solid black;
+    
+    }
+    }
+    
+    .details{
+    position: absolute;
+    top: 75%;
+    margin-left: 20px;
+    color: blue;
+    
+   }
+   .confirm {
+    position: absolute;
+    top: 75%;  
+    right: 30px;  
+    color: blue;
+
+}
+
     
     
